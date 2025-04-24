@@ -1,6 +1,4 @@
-package CollectionsOfData;
-
-import java.util.ArrayList;
+package dataStructuresFolder;
 
 public class ArrayLists {
     private int numbersOfElements;
@@ -72,7 +70,7 @@ public class ArrayLists {
         return -1;
     }
 
-    public int inludes(int containsElements) {
+    public int contains(int containsElements) {
         for (int arrayList : arrayLists) {
             if (arrayList == containsElements) {
                 return arrayList;

@@ -1,4 +1,4 @@
-package CollectionsOfData;
+package dataStructuresFolder;
 
 public class MySet {
     private int numbersOfElements;
@@ -8,7 +8,7 @@ public class MySet {
     this.numbersOfElements = 0;
     this.set = new int[3];
     }
-    public boolean isEMpty() {
+    public boolean isEmpty() {
         return numbersOfElements == 0;
     }
 
